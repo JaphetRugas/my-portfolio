@@ -19,16 +19,16 @@ export default function Projects() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 1</CardTitle>
+                  <CardTitle>Thrify Haven</CardTitle>
                   <CardDescription>A web application built with Next.js</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    This is a description of the first project.
+                    Thrifty Haven is a platform designed to streamline product management and preorder handling using Next.js APIs. With features for creating and managing products and handling user preorders.
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-sm font-medium hover:underline" href="#">
+                  <Link className="text-sm font-medium hover:underline" href="https://github.com/JaphetRugas/thrifty_haven" target='blank'>
                     View Project
                   </Link>
                 </CardFooter>
@@ -44,23 +44,26 @@ export default function Projects() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-sm font-medium hover:underline" href="#">
+                  <Link className="text-sm font-medium hover:underline" href="#" target='blank'>
                     View Project
                   </Link>
                 </CardFooter>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 3</CardTitle>
+                  <CardTitle>Express API</CardTitle>
                   <CardDescription>A backend API built with Node.js and Express</CardDescription>
                 </CardHeader>
                 <CardContent>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    Express API: Node.js backend with Express.js for user management.
+                  </p> 
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    This is a description of the third project.
+                    Stack used: Node.js, Express.js, Prisma
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-sm font-medium hover:underline" href="#">
+                  <Link className="text-sm font-medium hover:underline" href="https://github.com/JaphetRugas/express_api" target='blank'>
                     View Project
                   </Link>
                 </CardFooter>
@@ -69,7 +72,8 @@ export default function Projects() {
             <div className="flex justify-center">
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                href="#"
+                href="https://github.com/JaphetRugas?tab=repositories"
+                target='blank'
               >
                 View All
               </Link>

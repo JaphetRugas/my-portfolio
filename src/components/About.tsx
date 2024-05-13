@@ -15,9 +15,9 @@ export default function About() {
                         <div className="space-y-4">
                             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">My Interests</h3>
                             <ul className="space-y-2 text-lg text-gray-500 dark:text-gray-400 md:text-xl">
-                                <li>Web Development</li>
-                                <li>Traveling</li>
-                                <li>Photography</li>
+                                <li>Backend Development</li>
+                                <li>Diko alam ano ilalagay dito</li>
+                                <li>Gaming</li>
                             </ul>
                         </div>
                     </div>

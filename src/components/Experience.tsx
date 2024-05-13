@@ -11,22 +11,30 @@ export default function Experience() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Experience</h2>
               <p className="text-lg text-gray-500 dark:text-gray-400 md:text-xl">
-                Here's a timeline of my educational background.
+                Here's a timeline of my educational and work experience.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
                 <h3 className="text-lg font-semibold">Senior High School</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">2016 - 2018</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">2017 - 2019</p>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Graduated from ABC High School with a strand in STEM.
+                  Graduated from Polytechnic University of the Philippines with a strand in ICT.
                 </p>
               </div>
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
                 <h3 className="text-lg font-semibold">College</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">2018 - Present</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">2019 - Present</p>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Currently pursuing a Bachelor of Science in Information Technology at XYZ University.
+                  Currently pursuing a Bachelor of Science in Information Technology at Technological Institute of the Philippines.
+                </p>
+              </div>
+              <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
+                <h3 className="text-lg font-semibold">OJT</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Feb 2024 - Present</p>
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  Position: Web Developer  <br/>
+                  Company: Linoflap Technology Inc
                 </p>
               </div>
             </div>

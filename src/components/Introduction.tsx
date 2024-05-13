@@ -29,6 +29,7 @@ export default function Introduction() {
                                 <Link
                                     className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                                     href="https://web.facebook.com/japhetrugas"
+                                    target='blank'
                                 >
                                     <Facebook className="h-6 w-6" />
                                     <span className="sr-only">Facebook</span>
@@ -36,6 +37,7 @@ export default function Introduction() {
                                 <Link
                                     className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                                     href="https://github.com/JaphetRugas/"
+                                    target='blank'
                                 >
                                     <Github className="h-6 w-6" />
                                     <span className="sr-only">GitHub</span>
