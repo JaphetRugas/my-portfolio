@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 
@@ -7,7 +8,7 @@ export default function Navigation() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['home', 'about', 'projects', 'skills', 'experience', 'contact'];
+            const sections = ['home', 'about', 'projects', 'skills', 'experience'];
             const scrollPosition = window.scrollY;
 
             // Find which section is currently in view
@@ -15,7 +16,7 @@ export default function Navigation() {
                 const element = document.getElementById(section);
                 if (element) {
                     const { top, bottom } = element.getBoundingClientRect();
-                    if (top <= 100 && bottom >= 100) { // Adjust the threshold as needed
+                    if (top <= 100 && bottom >= 130) { // Adjust the threshold as needed
                         setActiveSection(section);
                         break;
                     }
@@ -32,9 +33,8 @@ export default function Navigation() {
         };
     }, []);
 
-    // Function to handle smooth scrolling to the selected section
     const scrollToSection = (sectionId: string, event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-        event.preventDefault();  
+        event.preventDefault();
         setActiveSection(sectionId);
         const element = document.getElementById(sectionId);
         if (element) {
@@ -45,24 +45,11 @@ export default function Navigation() {
     return (
         <nav className="container mx-auto flex h-16 max-w-5xl items-center justify-between px-4 md:px-6">
             <div className="flex items-center gap-4 md:gap-6">
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "home" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("home", e)}>
-                    Home
-                </Link>
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "about" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("about", e)}>
-                    About
-                </Link>
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "projects" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("projects", e)}>
-                    Projects
-                </Link>
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "skills" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("skills", e)}>
-                    Skills
-                </Link>
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "experience" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("experience", e)}>
-                    Experience
-                </Link>
-                <Link href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === "contact" ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection("contact", e)}>
-                    Contact
-                </Link>
+                {['home', 'about', 'projects', 'skills', 'experience'].map(section => (
+                    <Link key={section} href="#" passHref className={`text-sm font-medium hover:underline ${activeSection === section ? "text-blue-500" : "text-gray-500"}`} onClick={(e) => scrollToSection(section, e)}>
+                        {section.charAt(0).toUpperCase() + section.slice(1)}
+                    </Link>
+                ))}
             </div>
         </nav>
     );

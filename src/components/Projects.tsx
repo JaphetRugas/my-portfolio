@@ -32,19 +32,19 @@ export default function Projects() {
                     View Project
                   </Link>
                 </CardFooter>
-              </Card>
+              </Card> 
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 2</CardTitle>
-                  <CardDescription>A mobile app built with React Native</CardDescription>
+                  <CardTitle>Nextjs-Auth-Tutorial</CardTitle>
+                  <CardDescription>An authentication tutorial built with Next.js</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    This is a description of the second project.
+                    This is an authentication tutorial built with Next.js covering authentication concepts and implementation.
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-sm font-medium hover:underline" href="#" target='blank'>
+                  <Link className="text-sm font-medium hover:underline" href="https://github.com/JaphetRugas/nextjs-auth-tutorial" target='blank'>
                     View Project
                   </Link>
                 </CardFooter>
@@ -57,7 +57,7 @@ export default function Projects() {
                 <CardContent>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                     Express API: Node.js backend with Express.js for user management.
-                  </p> 
+                  </p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     Stack used: Node.js, Express.js, Prisma
                   </p>

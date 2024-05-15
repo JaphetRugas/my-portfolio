@@ -1,5 +1,4 @@
-import Footer from "@/components/Footer"
-import Contact from "@/components/Contact"
+import Footer from "@/components/Footer" 
 import Experience from "@/components/Experience"
 import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
@@ -20,8 +19,7 @@ export default function HomePage() {
         <About />
         <Projects />
         <Skills />
-        <Experience />
-        <Contact />
+        <Experience /> 
       </main>
       <Footer />
     </div>
