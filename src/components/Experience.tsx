@@ -16,7 +16,7 @@ export default function Experience() {
             </div>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
-                <h3 className="text-lg font-semibold">Senior High School</h3>
+                <h3 className="text-lg font-semi@bold">Senior High School</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">2017 - 2019</p>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
                   Graduated from Polytechnic University of the Philippines with a strand in ICT.
@@ -33,7 +33,7 @@ export default function Experience() {
                 <h3 className="text-lg font-semibold">OJT</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Feb 2024 - Present</p>
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                  Position: Web Developer  <br/>
+                  Position: Web Developer  <br />
                   Company: Linoflap Technology Inc
                 </p>
               </div>
