@@ -3,6 +3,8 @@
 import React from 'react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card'
 import Link from "next/link"
+import { Button } from './ui/button'
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -19,20 +21,27 @@ export default function Projects() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle>Thrify Haven</CardTitle>
-                  <CardDescription>A web application built with Next.js</CardDescription>
+                  <Image
+                    alt="Project 1"
+                    className="rounded-t-lg"
+                    height={225}
+                    src="/image/CycleUpTech.png"
+                    style={{
+                      aspectRatio: "400/225",
+                      objectFit: "cover",
+                    }}
+                    width={400}
+                  />
                 </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Thrifty Haven is a platform designed to streamline product management and preorder handling using Next.js APIs. With features for creating and managing products and handling user preorders.
-                  </p>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-2">
+                    CycleUpTech: Sustainable Technology Management System
+                  </h3>
+                  <p className="text-gray-500 dark:text-gray-400 mb-4">A comprehensive web solution facilitating geolocated donations and analytics-driven e-marketplace for repurposing old computers.</p>
+                  <Link className="text-sm font-medium hover:underline" href={"https://scraptec.onrender.com/"} target='blank'>Website</Link>
                 </CardContent>
-                <CardFooter>
-                  <Link className="text-sm font-medium hover:underline" href="https://github.com/JaphetRugas/thrifty_haven" target='blank'>
-                    View Project
-                  </Link>
-                </CardFooter>
-              </Card> 
+              </Card>
+
               <Card>
                 <CardHeader>
                   <CardTitle>Nextjs-Auth-Tutorial</CardTitle>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 
 export default function Introduction() {
+    const resumeLink = 'https://utfs.io/f/adabf401-2248-4fb4-b8a5-37ffe7771b28-v36xyo.pdf';
     return (
         <div>
             <section className="w-full py-24 md:py-32 lg:py-40" id="home">
@@ -64,13 +65,20 @@ export default function Introduction() {
                                     <span className="sr-only">GitHub</span>
                                 </Link>
                             </div>
+                            <div>
+                                <Link href={resumeLink} target="_blank" rel="noopener noreferrer">
+                                    <button className="mt-4 px-6 py-2 font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
+                                        Download Resume
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                         <div className="flex items-center justify-center">
                             <img
                                 alt="Jade Japhet R. Rugas"
                                 className="rounded-full"
                                 height={300}
-                                src="https://avatars.githubusercontent.com/u/106372419?s=400&u=767b591a16be5a8d7bfc01135ec77160684f6c5d&v=4"
+                                src="https://media.licdn.com/dms/image/D5603AQEAD577zHxCJA/profile-displayphoto-shrink_800_800/0/1705922783421?e=1722470400&v=beta&t=Vm69CcY5gWI-36SrHNd0xBR-JLzEtGeqNxVqTXANeS0"
                                 style={{
                                     aspectRatio: "300/300",
                                     objectFit: "cover",
