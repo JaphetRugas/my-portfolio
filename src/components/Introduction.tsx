@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 
 export default function Introduction() {
-    const resumeLink = 'https://utfs.io/f/adabf401-2248-4fb4-b8a5-37ffe7771b28-v36xyo.pdf';
+    const resumeLink = '/Jade_Japhet_Rugas_RESUME.pdf';
     return (
         <div>
             <section className="w-full py-24 md:py-32 lg:py-40" id="home">
@@ -67,7 +67,7 @@ export default function Introduction() {
                             </div>
                             <div>
                                 <Link href={resumeLink} target="_blank" rel="noopener noreferrer">
-                                    <button className="mt-4 px-6 py-2 font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
+                                    <button className="mt-4 px-6 py-2 font-semibold text-white bg-gray-900 rounded hover:bg-gray-900/90">
                                         Download Resume
                                     </button>
                                 </Link>

@@ -1,9 +1,6 @@
-"use client"
-
 import React from 'react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card'
 import Link from "next/link"
-import { Button } from './ui/button'
 import Image from 'next/image'
 
 export default function Projects() {
@@ -15,10 +12,10 @@ export default function Projects() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
               <p className="text-lg text-gray-500 dark:text-gray-400 md:text-xl">
-                Check out some of my recent projects.
+                Here are some projects I've worked on and contributed to.
               </p>
             </div>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
                   <Image
@@ -38,8 +35,81 @@ export default function Projects() {
                     CycleUpTech: Sustainable Technology Management System
                   </h3>
                   <p className="text-gray-500 dark:text-gray-400 mb-4">A comprehensive web solution facilitating geolocated donations and analytics-driven e-marketplace for repurposing old computers.</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    Tech Stack: Node.js, Express.js, MongoDB, Prisma, EJS, Bootstrap
+                  </p>
                   <Link className="text-sm font-medium hover:underline" href={"https://scraptec.onrender.com/"} target='blank'>Website</Link>
                 </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <Image
+                    alt="Marine Management System"
+                    className="rounded-t-lg"
+                    height={225}
+                    src="/image/OJTProj.png"
+                    style={{
+                      aspectRatio: "400/225",
+                      objectFit: "cover",
+                    }}
+                    width={400}
+                  />
+                </CardHeader>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-2">
+                    Marine Management System
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    Developed for Linoflap Technology.
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    A dedicated online platform for marines and cargo management.
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Stack used: Next.js (server action & API), Shadcn, Zod, Lucia, Drizzle, Neon for serverless PostgreSQL, Cloudinary
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <span className="text-sm font-medium hover:underline">
+                    Confidential Project
+                  </span>
+                </CardFooter>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <Image
+                    alt="Social App"
+                    className="rounded-t-lg"
+                    height={225}
+                    src="/image/SocialOJT.png"
+                    style={{
+                      aspectRatio: "400/225",
+                      objectFit: "cover",
+                    }}
+                    width={400}
+                  />
+                </CardHeader>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-2">
+                    Social App
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    Developed for Linoflap Technology.
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                    A blog posting website with Next.js, Tailwind CSS, and NextAuth for authentication.
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Tech Stack: Next.js, Tailwind CSS, Neon, Prisma, NextAuth.
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <span className="text-sm font-medium hover:underline">
+                    Confidential Project
+                  </span>
+                </CardFooter>
               </Card>
 
               <Card>
@@ -58,6 +128,7 @@ export default function Projects() {
                   </Link>
                 </CardFooter>
               </Card>
+
               <Card>
                 <CardHeader>
                   <CardTitle>Express API</CardTitle>
@@ -68,7 +139,7 @@ export default function Projects() {
                     Express API: Node.js backend with Express.js for user management.
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Stack used: Node.js, Express.js, Prisma
+                    Tech Stack: Node.js, Express.js, Prisma
                   </p>
                 </CardContent>
                 <CardFooter>
