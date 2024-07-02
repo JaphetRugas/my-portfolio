@@ -24,7 +24,7 @@ export default function Experience() {
               </div>
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
                 <h3 className="text-lg font-semibold">OJT</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Feb 2024 - Present</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Feb 2024 - June 2024</p>
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
                   Position: Web Developer  <br />
                   Company: Linoflap Technology Inc
