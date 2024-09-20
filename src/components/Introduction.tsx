@@ -78,7 +78,7 @@ export default function Introduction() {
                                 alt="Jade Japhet R. Rugas"
                                 className="rounded-full"
                                 height={300}
-                                src="https://media.licdn.com/dms/image/D5603AQEAD577zHxCJA/profile-displayphoto-shrink_800_800/0/1705922783421?e=1722470400&v=beta&t=Vm69CcY5gWI-36SrHNd0xBR-JLzEtGeqNxVqTXANeS0"
+                                src="/image/Formal.jpeg"
                                 style={{
                                     aspectRatio: "300/300",
                                     objectFit: "cover",
