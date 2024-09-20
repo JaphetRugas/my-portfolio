@@ -17,10 +17,9 @@ export default function Experience() {
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"> 
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
                 <h3 className="text-lg font-semibold">College</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">2019 - Present</p>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Currently pursuing a Bachelor of Science in Information Technology at Technological Institute of the Philippines.
-                </p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">2019 - 2024</p>
+                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400"> 
+                  Graduated with a Bachelor of Science in Information Technology from the Technological Institute of the Philippines, Cum Laude. </p>
               </div>
               <div className="bg-white px-6 py-8 shadow dark:bg-gray-950">
                 <h3 className="text-lg font-semibold">OJT</h3>
