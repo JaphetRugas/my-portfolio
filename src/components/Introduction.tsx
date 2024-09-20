@@ -78,7 +78,7 @@ export default function Introduction() {
                                 alt="Jade Japhet R. Rugas"
                                 className="rounded-full"
                                 height={300}
-                                src="/image/Formal.jpeg"
+                                src="/image/formal.jpeg"
                                 style={{
                                     aspectRatio: "300/300",
                                     objectFit: "cover",
